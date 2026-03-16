@@ -1,5 +1,5 @@
 // API base URL - defaults to Django backend on port 8000, but can be set via env var
-const API_BASE = process.env.REACT_APP_API_URL || 'http://cs.indstate.edu:9000'; //'https://testing-l0lu.onrender.com';
+const API_BASE = process.env.REACT_APP_API_URL || 'https://cs.indstate.edu:9000'; //'https://testing-l0lu.onrender.com';
 
 // Map frontend category keys to backend data folder names
 const categoryToFolder = {
